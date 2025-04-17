@@ -1,0 +1,30 @@
+/* header.component.css */
+.printer-brands-header {
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  
+  .printer-brands-header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .printer-brands-header a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .printer-brands-header a:hover {
+    color: #0066cc;
+    background-color: #e7e7e7;
+  }

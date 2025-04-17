@@ -1,0 +1,10 @@
+:root {
+    --night-blue: #0a1a2f;
+    --dark-blue: #1a365d;
+    --star-pattern: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 0L12.36 6.36L19.02 7.64L14.51 12.64L15.64 19.02L10 15.8L4.36 19.02L5.49 12.64L0.98 7.64L7.64 6.36L10 0Z' fill='white' fill-opacity='0.2'/%3E%3C/svg%3E");
+  }
+  
+  body {
+    background-color: #f8f9fa;
+    color: #333;
+  }

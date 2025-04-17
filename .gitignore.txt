@@ -1,0 +1,18 @@
+# Java
+/target/
+*.jar
+*.war
+*.class
+
+# Angular
+/dist/
+/node_modules/
+
+# MySQL
+*.sql
+!backend/src/main/resources/schema.sql  # Keep schema file
+
+# IDE
+.idea/
+*.iml
+*.vscode/
