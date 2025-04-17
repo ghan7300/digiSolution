@@ -39,3 +39,4 @@ npm install
 
 Run Angular:
 ng serve
+ ### Open http://localhost:4200 in browser.
