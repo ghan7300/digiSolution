@@ -1,3 +1,12 @@
+# How to Run This Project
+
+## Backend (Spring Boot + MySQL)
+1. **Set up MySQL**:
+   ```sql
+   CREATE DATABASE digiprint;
+
+## Configure application.properties:
+   
 spring.application.name=Test
 # MySQL Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/digiprint
@@ -15,3 +24,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 # Server Port
 server.port=8080
+
+## Run Spring Boot:
+
+cd backend
+mvn spring-boot:run
