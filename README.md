@@ -28,4 +28,14 @@ server.port=8080
 ## Run Spring Boot:
 
 cd backend
+
 mvn spring-boot:run
+
+## Frontend (Angular)
+
+Install dependencies:
+cd FE
+npm install
+
+Run Angular:
+ng serve
